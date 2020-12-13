@@ -15,7 +15,7 @@ export class Usr1Component implements OnInit {
   }  
 
   clickFunc() {
-    this.router.navigate(['/usr2']);
+    this.router.navigate(['/home']);
   }
 
 }
