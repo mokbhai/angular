@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  name: any = true;
+  names: any=[];
+  bg = false;
+  hh = 0;
+  constructor() { 
 
-  constructor() { }
-
+ this.names = ['michel', 'traver', 'frankleen', 'shitty'];
+}
   ngOnInit(): void {
-  }
+ }
 
 }
